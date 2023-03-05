@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+    <script src="upload.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+		<nav class="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="page2.html">Friends</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+        
+        <button onclick = "uploadPicture()" class = "my-button1" id="button1">Upload Bills</button>
+        <input type="file" id="pictureInput" style="display: none;">
+        <button onclick = "uploadPicture()" class  = "my-button2" id="button2">Upload Purchases</button>
+        <button class = "my-button3" id="button3">Plant a Tree
+        </button>
+
+        <script>
+            
+           
+
+            //const button1 = document.getElementById("button1");
+            //const button2 = document.getElementById("button2");
+            const button3 = document.getElementById("button3");
+
+            const image1 = document.getElementById("image1");
+            
+
+            // Add event listeners to the buttons
+            //button1.addEventListener("click", function() {
+            //    alert("You clicked Button 1!");
+            //});
+
+            //button2.addEventListener("click", function() {
+            //    alert("You clicked Button 2!");
+            //});
+
+            button3.addEventListener("click", function() {
+                alert("You clicked Button 3!");
+            });
+
+        </script>
+        
+        
+        <div class="container">
+            <div class="circle">
+              84
+            </div>
+            <div class="text">
+              Your March Sustainability Score
+            </div>
+            <div class="text2">
+                Percentile: 70%
+            </div>
+          </div>
+          
+
+		
+		<div class="box">
+			<h2>Figure 2</h2>
+			<a href="#"><img src="figure2.jpg"></a>
+		</div>
+		
+	</main>
+
+</body>
+</html>

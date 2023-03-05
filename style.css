@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: green;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 50px;
+    
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
+    
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	flex: 1;
+	margin: 20px;
+}
+
+.box h2 {
+	text-align: center;
+}
+
+.box img {
+	display: block;
+	margin: 0 auto;
+}
+
+  
+.my-button1 {
+position: absolute; /* set the position to absolute */
+bottom: 100px; /* set the distance from the top of the page */
+left: 100px; /* set the distance from the left of the page */
+background-color: green;
+color: white;
+padding: 15px 30px;
+font-size: 24px;
+border-radius: 10px;
+border: none;
+cursor: pointer;
+}
+
+.my-button2 {
+    position: absolute; /* set the position to absolute */
+    bottom: 100px; /* set the distance from the top of the page */
+    left: 300px; /* set the distance from the left of the page */
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    }
+
+.my-button3 {
+    position: absolute; /* set the position to absolute */
+    bottom: 100px; /* set the distance from the top of the page */
+    left: 570px; /* set the distance from the left of the page */
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    }
+
+
+.circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 200px;
+    left: 100px;
+    background-color: rgb(106, 186, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+.container {
+    position: relative;
+  }
+.text {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 75px;
+    font-size: 20px;
+  }
+
+  .text2 {
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 100px;
+    font-size: 20px;
+  }
+
+  .navbar a {
+    font-size: 24px; /* Change the value as desired */
+  }
+
+
+
+  
