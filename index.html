@@ -22,8 +22,55 @@
         <button onclick = "uploadPicture()" class = "my-button1" id="button1">Upload Bills</button>
         <input type="file" id="pictureInput" style="display: none;">
         <button onclick = "uploadPicture()" class  = "my-button2" id="button2">Upload Purchases</button>
-        <button class = "my-button3" id="button3">Plant a Tree
+        
+        
+        <button onclick = "popup()" class = "my-button3" id="button3">Plant a Tree
+        
+        
+   
         </button>
+
+        <div class="popup" id="popup">
+          <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Enter Donation Amount:</h2>
+            
+            <input type="float" id="amt" name="amt"><br><br>
+            
+            <button onclick="submitForm()">Submit</button>
+            <p id="submit-message"></p>
+          </div>
+        </div>
+	</div>
+
+	<script>
+		function popup() {
+			document.getElementById("popup").style.display = "block";
+		}
+
+		function closePopup() {
+			document.getElementById("popup").style.display = "none";
+		}
+
+		function submitForm() {
+			// get input values
+			var amt = document.getElementById("amt").value;
+		
+
+			// validate input values
+			if (amt == "" ) {
+				alert("Please enter donation amount.");
+			} else {
+				// display submit message
+				document.getElementById("submit-message").innerHTML = "Thanks for contributing to planting a tree!";
+			}
+		}
+	</script>
+        
+
+        
+        
+        
 
         <script>
 
@@ -32,9 +79,10 @@
 
             //const button1 = document.getElementById("button1");
             //const button2 = document.getElementById("button2");
-            const button3 = document.getElementById("button3");
+            //const button3 = document.getElementById("button3");
+            //const button3 = document.getElementById('button3');
 
-            const image1 = document.getElementById("image1");
+            //const image1 = document.getElementById("image1");
             
             
 
@@ -47,9 +95,11 @@
             //    alert("You clicked Button 2!");
             //});
 
-            button3.addEventListener("click", function() {
-                alert("You clicked Button 3!");
-            });
+            //button3.addEventListener("click", function() {
+            //    alert("You clicked Button 3!");
+            //});
+            //button3.addEventListener('click', popup());
+            
 
         </script>
         
