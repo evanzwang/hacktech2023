@@ -123,6 +123,115 @@ cursor: pointer;
     font-size: 24px; /* Change the value as desired */
   }
 
+/* Style for the left section */
+#left-section {
+float: left;
+width: 50%;
+height: 500px;
+background-color: #999999;
+}
 
+/* Style for the right section */
+#right-section {
+float: right;
+width: 50%;
+height: 500px;
+background-color: #399999;
+}
 
-  
+/* Style for the header */
+#left-section h1 {
+text-align: center;
+}
+
+/* Style for the list items */
+#left-section li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the profile picture */
+#left-section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Style for the name */
+#left-section h2 {
+  margin: 0;
+}
+
+/* Style for the score */
+#left-section p {
+  margin: 0;
+  background-color: #ddd;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Style for the list item content */
+#left-section .list-item-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Style for the name and score container */
+#left-section .name-and-score {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#left-section .sort-by {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Style for the sort-by label */
+#left-section .sort-by label {
+  margin-right: 10px;
+}
+
+/* Style for the sort-by select */
+#left-section .sort-by select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Style for the name-and-score container */
+#left-section .name-and-score {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+
+/* Style for the name container */
+#left-section .name {
+  margin-left: 10px;
+}
+
+/* Style for the score container */
+#left-section .score {
+  margin-left: auto;
+}
+
+#right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#right-section img {
+  width: 80%;
+  height: auto;
+}
