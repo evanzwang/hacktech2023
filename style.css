@@ -136,23 +136,27 @@ cursor: pointer;
 /* Style for the left section */
 #left-section {
 float: left;
-width: 50%;
-height: 500px;
-background-color: #999999;
+width: 45%;
+padding-left: 20px;
+
+/* height: 500px; */
+/* background-color: #999999; */
 }
 
 /* Style for the right section */
 #right-section {
 float: right;
-width: 50%;
-height: 500px;
-background-color: #399999;
+width: 45%;
+padding-right: 60px;
+padding-top: 45px;
+/* height: 500px; */
+/* background-color: #399999; */
 }
 
 /* Style for the header */
-#left-section h1 {
-text-align: center;
-}
+/* #left-section h1 {
+/* text-align: center; */
+/* } */
 
 /* Style for the list items */
 #left-section li {
@@ -249,10 +253,10 @@ text-align: center;
 .image-container {
   position: relative;
 }
-
+/*
 .image-container img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
