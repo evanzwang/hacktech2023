@@ -237,3 +237,14 @@ text-align: center;
   width: 80%;
   height: auto;
 }
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
